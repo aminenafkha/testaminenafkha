@@ -1,0 +1,9 @@
+
+
+<img   [src]="t.image" width="50px" height="80px">
+{{t.nom}} 
+<span class="badge badge-pill " [ngClass]="{'badge-success':t.prix<2 , 'badge-warning' :t.prix>2 }       ">
+    {{t.prix}}
+</span>
+ <input type="checkbox"  [checked]="t.frais" > Frais
+ <br>

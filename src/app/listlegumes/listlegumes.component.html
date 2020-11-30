@@ -1,0 +1,13 @@
+<h1> Legumes du Nov 30, 2020</h1>
+ <ol >
+       <li  >
+        <ng-container *ngFor="let t of tabLegumes" >
+                     <amin-legume   [legume]="t"> </amin-legume>
+                
+            
+            </ng-container>
+
+       </li>
+</ol>
+
+   <button (click)="nbFrais()"> Nb de légumes frais </button>
